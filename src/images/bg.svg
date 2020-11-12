@@ -1,0 +1,14 @@
+<svg id="Background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_32" data-name="Rectangle 32" width="1920" height="1080" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_8" data-name="Mask Group 8" clip-path="url(#clip-path)">
+    <rect id="Off_White" data-name="Off White" width="1920" height="1080" fill="#fcfcfc"/>
+    <rect id="Green" width="1166" height="1166" rx="120" transform="translate(1887 -425.487) rotate(45)" fill="rgba(6,214,160,0.71)"/>
+    <rect id="Blue" width="1166" height="1166" rx="120" transform="translate(1784 -154.487) rotate(45)" fill="#26547c"/>
+    <rect id="Yellow" width="1166" height="1166" rx="120" transform="translate(2517 -456.487) rotate(45)" fill="#ffd166" opacity="0.999"/>
+    <rect id="Red" width="1166" height="1166" rx="120" transform="translate(2277 -76.487) rotate(45)" fill="#ef476f" opacity="0.999"/>
+  </g>
+</svg>
