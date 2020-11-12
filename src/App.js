@@ -7,17 +7,17 @@ import './App.css';
 import { AuthProvider } from './context/auth';
 import AuthRoute from './util/AuthRoute';
 
-// import MenuBar from './components/MenuBar';
+import MenuBar from './components/MenuBar';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import SinglePost from './pages/SinglePost';
-// <MenuBar />
 
 function App() {
   return (
     <AuthProvider>
-      <Router>
+    <Router>
+          <MenuBar />
           <Route exact path='/' component={Home} />
           <AuthRoute exact path='/login' component={Login} />
           <AuthRoute exact path='/register' component={Register} />
