@@ -4,7 +4,6 @@ import gql from 'graphql-tag';
 
 import BG from '../images/bg.svg'
 import { ReactComponent as Logo } from '../images/logo.svg'
-import Carousel from '../components/Carousel'
 
 import { AuthContext } from '../context/auth';
 import { useForm } from '../util/hooks';
@@ -79,7 +78,7 @@ function Login(props) {
     password: ''
   });
 
-  const [loginUser, { loading }] = useMutation(LOGIN_USER, {
+  const [loginUser] = useMutation(LOGIN_USER, {
     update(
       _,
       {

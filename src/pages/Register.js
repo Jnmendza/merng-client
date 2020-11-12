@@ -3,11 +3,7 @@ import {
   TextField, 
   Button, 
   Grid, 
-  FormControlLabel, 
-  Checkbox, 
   Link, 
-  Box, 
-  Typography,
   SvgIcon,
  } from '@material-ui/core';
 
@@ -69,7 +65,7 @@ function Register(props) {
     confirmPassword: ''
   });
 
-  const [addUser, { loading }] = useMutation(REGISTER_USER, {
+  const [addUser] = useMutation(REGISTER_USER, {
     update(
       _,
       {
